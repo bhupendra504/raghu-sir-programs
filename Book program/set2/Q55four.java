@@ -5,6 +5,7 @@ public class Q55four {
         int total=a+b+c+d;
         return (double) total/4.00;
     }
+    
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);

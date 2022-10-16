@@ -5,7 +5,7 @@ public class Decimaltobinary {
         String bin="";
         do{
             int rem=dec%2;
-            bin=bin+rem;
+            bin=rem+bin;
             dec=dec/2;
         }
         while(dec!=0);
@@ -14,7 +14,7 @@ public class Decimaltobinary {
     }
     public static void main(String args[])
     {
-        System.out.println("decimal to binary "+dectoBinary(75));
+        System.out.println("decimal to binary "+dectoBinary(15));
     }
     
 }
