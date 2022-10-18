@@ -33,7 +33,9 @@ public class Q41average {
         System.out.println("Enter the number: ");
         int n=sc.nextInt();
         System.out.println(averageDigit(n));
+        sc.close();
     }
+
 
     }
 

@@ -19,5 +19,6 @@ public class Q21primerange {
         System.out.println("Enter the number: ");
         int n = sc.nextInt();
         printprime(n);
+        sc.close();
     }
 }

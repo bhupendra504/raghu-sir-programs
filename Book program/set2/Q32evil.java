@@ -35,6 +35,7 @@ public class Q32evil {
             System.out.println("Evil number");
         } else {
             System.out.println("Odius number");
+            sc.close();
         }
     }
 

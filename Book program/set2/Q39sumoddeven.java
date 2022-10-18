@@ -31,5 +31,6 @@ class Q39sumoddeven
         int n=sc.nextInt();
         int rs=((sumOfodd(n))-(sumOfeven(n)));
         System.out.println(rs);
+        sc.close();
     }
 }

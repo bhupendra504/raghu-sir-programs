@@ -12,6 +12,7 @@ public class Q23gactorial {
             i++;
         }
         System.out.println(fact);
+        sc.close();
     }
     
 }

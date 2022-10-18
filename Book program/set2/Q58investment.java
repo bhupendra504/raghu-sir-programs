@@ -28,6 +28,7 @@ public class Q58investment {
         System.out.println("Enter the period investment year");
         int n=sc.nextInt();
         System.out.println(futureInvestment(pv,i,n));
+        sc.close();
  
 }
 }

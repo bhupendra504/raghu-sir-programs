@@ -25,6 +25,7 @@ public class Q44happycheck {
           System.out.println("Happy number");
           else 
            System.out.println("Not happy number");
+           sc.close();
     }
     
 }

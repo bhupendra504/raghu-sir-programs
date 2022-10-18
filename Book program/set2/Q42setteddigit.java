@@ -16,6 +16,7 @@ public class Q42setteddigit {
         System.out.println("Enter the number: ");
         int n=sc.nextInt();
         System.out.println(settedDigit(n));
+        sc.close();
     }
     
 }

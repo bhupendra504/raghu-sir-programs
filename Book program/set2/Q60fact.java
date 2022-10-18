@@ -24,6 +24,7 @@ public class Q60fact {
         int r=sc.nextInt();
         System.out.println("NCR"+ncr(n,r));
         System.out.println("NPR "+npr(n,r));
+        sc.close();
     }
 
     

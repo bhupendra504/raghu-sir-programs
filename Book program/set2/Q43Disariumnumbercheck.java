@@ -47,6 +47,7 @@ public class Q43Disariumnumbercheck {
         {
             System.out.println("not a Disarium number");
         }
+        sc.close();
     }
     
 }

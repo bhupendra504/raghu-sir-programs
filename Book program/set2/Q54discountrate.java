@@ -13,6 +13,7 @@ public class Q54discountrate {
         System.out.println("Enter the percentage");
         int percentage=sc.nextInt();
         System.out.println(disCountrate(price,percentage));
+        sc.close();
     }
     
 }

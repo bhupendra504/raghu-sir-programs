@@ -51,6 +51,7 @@ public class Q27numbertoword {
             break;
             default:System.out.println("Invalid range");
         }
+        sc.close();
     }
     
 }

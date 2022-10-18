@@ -36,7 +36,8 @@ public class Q28automorphic {
             System.out.println("Automorphic number");
         else
             System.out.println("not Automorphic");
-
+            sc.close();
     }
+   
 
 }

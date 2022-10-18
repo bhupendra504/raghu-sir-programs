@@ -34,6 +34,7 @@ public class Q29emirp {
         System.out.println("Enter the number");
         int n = sc.nextInt();
         emirpNum(n);
+        sc.close();
 
     }
 

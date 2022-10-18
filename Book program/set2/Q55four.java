@@ -15,6 +15,7 @@ public class Q55four {
         int c=sc.nextInt();
         int d=sc.nextInt();
         System.out.println(percentageOverall(a,b,c,d)+"%");
+        sc.close();
     }
     
 }

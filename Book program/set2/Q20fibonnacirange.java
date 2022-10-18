@@ -17,6 +17,7 @@ public class Q20fibonnacirange {
         System.out.println("Enter the number");
         int n=sc.nextInt();
         printfibonaaci(n);
+        sc.close();
     }
     
 }
