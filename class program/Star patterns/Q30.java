@@ -1,5 +1,12 @@
+/*
+                      1     
+                    2 1 2   
+                  3 2 1 2 3 
+                4 3 2 1 2 3 4
+              5 4 3 2 1 2 3 4 5
+ */
 import java.util.Scanner;
-public class Q32 {
+public class Q30 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
@@ -12,17 +19,17 @@ public class Q32 {
             {
                 System.out.print("  ");
             }
-            int x=n-i+1;
+            int x=i;
             for(int j=1;j<=2*i-1;j++)
             {
                 System.out.print(x+" ");
                 if(j<i)
-                x++;
-                else
                 x--;
+                else
+                x++;
             }
             System.out.println();
         }
         sc.close();
     }
-}
+} 

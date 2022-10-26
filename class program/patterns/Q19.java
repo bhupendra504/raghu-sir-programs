@@ -1,3 +1,10 @@
+/*
+                *****
+                 ****
+                  ***
+                   **
+                    *
+ */
 import java.util.Scanner;
 public class Q19 {
     public static void main(String args[])
@@ -18,6 +25,7 @@ public class Q19 {
             }
             System.out.println();
         }
+        sc.close();
 
  
     }

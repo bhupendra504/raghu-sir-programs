@@ -1,12 +1,21 @@
+/*
+
+                        1 2 3 2 1 
+                          2 3 2   
+                            3     
+                          2 3 2
+                        1 2 3 2 1
+
+ */
 import java.util.Scanner;
-public class Q33 {
+public class Q39 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
         int n=sc.nextInt();
 
-        int sp=n/2,st=1;
+        int sp=0,st=n;
 
         for(int i=1;i<=n;i++)
         {
@@ -14,21 +23,28 @@ public class Q33 {
             {
                 System.out.print("  ");
             }
+            int x=sp+1;
             for(int j=1;j<=st;j++)
             {
-                System.out.print("* ");
+                System.out.print(x+" ");
+                if(j<=st/2)
+                x++;
+                else 
+                x--;
             }
             if(i<=n/2)
+            {
+                sp++;
+                st=st-2;
+
+            }
+            else 
             {
                 sp--;
                 st=st+2;
             }
-            else
-            {
-                sp++;
-                st=st-2;
-            }
             System.out.println();
+            
         }
         sc.close();
     }

@@ -1,3 +1,10 @@
+/*
+     1  
+     0  1  0        
+     1  0  1  0  1  
+     0  1  0  1  0  1  0
+     1  0  1  0  1  0  1  0  1
+ */
 import java.util.Scanner;
 public class Q16 {
     public static void main(String args[])

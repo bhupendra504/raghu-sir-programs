@@ -1,3 +1,10 @@
+/*
+        1 0 1 0 1 
+        1 0 1 0 1 
+        1 0 1 0 1 
+        1 0 1 0 1
+        1 0 1 0 1
+ */
 import java.util.Scanner;
 public class Q3 {
     public static void main(String args[])
@@ -14,6 +21,8 @@ public class Q3 {
             }
             System.out.println();
         }
+        sc.close();
     }
+
     
 }

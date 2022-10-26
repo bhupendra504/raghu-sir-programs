@@ -1,12 +1,12 @@
 /*
-                    1 
-                  2 1 
-                3 2 1
-              4 3 2 1
-            5 4 3 2 1 
+        5     
+      4 5 4   
+    3 4 5 4 3 
+  2 3 4 5 4 3 2
+1 2 3 4 5 4 3 2 1
  */
 import java.util.Scanner;
-public class Q6 {
+public class Q32 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
@@ -19,14 +19,17 @@ public class Q6 {
             {
                 System.out.print("  ");
             }
-            for(int j=i;j>=1;j--)
+            int x=n-i+1;
+            for(int j=1;j<=2*i-1;j++)
             {
-                System.out.print(j+" ");
+                System.out.print(x+" ");
+                if(j<i)
+                x++;
+                else
+                x--;
             }
             System.out.println();
         }
         sc.close();
     }
 }
-    
-

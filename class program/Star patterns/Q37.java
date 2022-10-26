@@ -1,3 +1,10 @@
+/*
+             *  
+            * * 
+           *   *
+            * *
+             *
+ */
 import java.util.Scanner;
 public class Q37 {
     public static void main(String args[])
@@ -32,6 +39,7 @@ public class Q37 {
             }
             System.out.println();
         }
+        sc.close();
 
 
     }

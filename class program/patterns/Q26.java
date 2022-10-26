@@ -1,3 +1,10 @@
+/*
+                     A  
+                    ABC 
+                   ABCDE
+                  ABCDEFG
+                 ABCDEFGHI
+ */
 import java.util.Scanner;
 public class Q26 {
     public static void main(String args[])

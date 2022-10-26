@@ -1,23 +1,25 @@
 /*
-            5 4 3 2 1 
-            5 4 3 2 1 
-            5 4 3 2 1 
-            5 4 3 2 1
-            5 4 3 2 1
+            1 0 1 0 1 
+            0 1 0 1 0 
+            1 0 1 0 1 
+            0 1 0 1 0
+            1 0 1 0 1
  */
 import java.util.Scanner;
-public class Q15 {
+public class Q21 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
         int n=sc.nextInt();
 
-        for(int i=1;i<=n;i++)
+        int x=1;
+        for (int i=1;i<=n;i++)
         {
-            for(int j=5;j>=1;j--)
+            for(int j=1;j<=n;j++)
             {
-                System.out.print(j+" ");
+                System.out.print(x%2+" ");
+                x++;
             }
             System.out.println();
         }
