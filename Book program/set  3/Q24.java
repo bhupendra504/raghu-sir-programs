@@ -1,3 +1,11 @@
+/*
+            1  
+            23 
+            456
+            7891
+            23456
+ */
+
 import java.util.Scanner;
 public class Q24 {
     public static void main(String args[])
