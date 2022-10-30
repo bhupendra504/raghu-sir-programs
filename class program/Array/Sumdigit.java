@@ -14,7 +14,7 @@ public class Sumdigit {
 
         }
         int sum=0;
-        for(int i=1;i<ar.length;i++)
+        for(int i=0;i<ar.length;i++)
         {
             sum=sum+ar[i];
         }

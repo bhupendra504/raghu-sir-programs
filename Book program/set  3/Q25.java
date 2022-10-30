@@ -12,7 +12,7 @@ public class Q25 {
         {
             for(int j=1;j<=sp;j++)
             {
-                System.out.print(" ");
+                System.out.print("  ");
             }
             int x=1;
             for(int j=1;j<=st;j++)
@@ -26,6 +26,8 @@ public class Q25 {
                 {
                     x--;
                 }
+            }
+
                 if(i<=n/2)
                 {
                     sp--;
@@ -38,7 +40,7 @@ public class Q25 {
                 }
                 System.out.println();
 
-            }
+            
       
         }
         sc.close();
