@@ -12,6 +12,7 @@ public class Q24delete {
         {
             ar[i]=sc.nextInt();
         }
+        sc.close();
         return ar;
     }
     static void disArray(int arr[])

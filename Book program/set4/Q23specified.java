@@ -11,6 +11,7 @@ public class Q23specified{
         {
             ar[i]=sc.nextInt();
         }
+        sc.close();
         return ar;
     }
     static void disArray(int arr[])

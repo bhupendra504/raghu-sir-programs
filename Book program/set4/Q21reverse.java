@@ -12,6 +12,7 @@ public class Q21reverse {
         {
             ar[i]=sc.nextInt();
         }
+        sc.close();
         return ar;
         
     }

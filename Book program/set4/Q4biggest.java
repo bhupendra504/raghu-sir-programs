@@ -24,6 +24,7 @@ public class Q4biggest {
         {
             ar[i]=sc.nextInt();
         }
+        sc.close();
         return ar;
     }
     public static void main(String args[])

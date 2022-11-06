@@ -13,6 +13,7 @@ public class Q22merge {
         {
             ar[i]=sc.nextInt();
         }
+        sc.close();
         return ar;
     
         
