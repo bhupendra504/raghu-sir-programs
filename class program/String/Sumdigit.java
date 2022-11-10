@@ -20,6 +20,7 @@ public class Sumdigit {
 
         int sum=sumofDigit(st);
         System.out.println("Sum of Digit "+sum);
+        sc.close();
     }
     
 }

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q32decreasing {
+public class Q33decreasing {
     
     static int[] readArray()
     {
