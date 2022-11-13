@@ -1,6 +1,6 @@
 //How many count in the word present in the sentance.
 import java.util.Scanner;
-/* 
+
 public class Countword {
     private static int countWord(String st)
     {
@@ -8,7 +8,7 @@ public class Countword {
         int count=0;
         for(int i=0;i<ch.length;i++)
         {
-            if(i==0&&ch[i]!=' ' ||ch[i]!=' ' &&ch[i-1]==0)
+            if(i==0&&ch[i]!=' ' ||ch[i]!=' ' &&ch[i-1]==' ')
             {
                 count++;
             }
@@ -25,8 +25,8 @@ public class Countword {
    
     }
 }
-*/
 
+/* 
 public class Countword
 {
     public static void main(String args[])
@@ -58,5 +58,6 @@ public class Countword
         sc.close();
     }
 }
+*/
     
 

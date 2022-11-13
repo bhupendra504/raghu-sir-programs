@@ -11,7 +11,7 @@ public class Q26zigzag {
         for (int i = 0; i < ar.length; i++) {
             ar[i] = sc.nextInt();
         }
-        sc.close();
+    
         return ar;
         
     }

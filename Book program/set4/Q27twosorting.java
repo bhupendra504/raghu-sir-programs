@@ -12,7 +12,7 @@ public class Q27twosorting {
         {
             ar[i]=sc.nextInt();
         }
-         sc.close();
+         
         return ar;
     }
     static void disArray(int arr[])
