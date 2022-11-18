@@ -10,6 +10,7 @@ public class Q11bmi {
 
         double bmi=w/(h*h);
         System.out.println("bmi "+bmi);
+        sc.close();
     }
     
 }

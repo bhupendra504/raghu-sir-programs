@@ -14,7 +14,8 @@ public class Q17month {
             else if(a==2)
              System.out.println("28 or 29 days");
              else 
-               System.out.println("Invaild month number:");`    
+               System.out.println("Invaild month number:");
+               sc.close();    
              
     }
     

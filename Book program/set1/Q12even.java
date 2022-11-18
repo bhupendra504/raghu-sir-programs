@@ -11,6 +11,7 @@ public class Q12even {
         }
         else{
             System.out.println("odd "+a);
+            sc.close();
         }
     }
 }

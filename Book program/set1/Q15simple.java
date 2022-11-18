@@ -11,6 +11,7 @@ public class Q15simple {
         int time=sc.nextInt();
         double special=amount*rate*time/100;
         System.out.println("Special interest"+special);
+        sc.close();
     }
     
 }

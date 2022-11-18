@@ -27,6 +27,7 @@ public class Q19distinct {
                    System.out.println(a);
                     else 
                       System.out.println(b);
+                      sc.close();
                  
             
     }

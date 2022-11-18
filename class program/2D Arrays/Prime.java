@@ -66,7 +66,5 @@ public class Prime {
         System.out.println("prime number present inthe matrix");
         printPrime(x);
 
-    }
-
-    
+    }  
 }

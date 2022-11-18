@@ -17,6 +17,7 @@ public class Q13special {
         {
             System.out.println("Not special number "+a);
         }
+        sc.close();
     }
     
 }

@@ -8,6 +8,7 @@ public class Q5cetimeter {
 
         System.out.println("meter "+a/100);
         System.out.println("foot "+a/30.48);
+        sc.close();
     }
     
 }

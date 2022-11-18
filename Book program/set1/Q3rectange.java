@@ -11,7 +11,8 @@ public class Q3rectange {
         int perimeter=2*(l+h);
         System.out.println("area of rectange "+rectange);
         System.out.println("perimetr of rectangle "+perimeter);
-
+        sc.close();
+    
     }
     
 }

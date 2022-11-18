@@ -12,6 +12,7 @@ public class Q7position {
             System.out.println("negative "+a);
              if(a==0)
               System.out.println("zero "+a);
+              sc.close();
     }
     
 }

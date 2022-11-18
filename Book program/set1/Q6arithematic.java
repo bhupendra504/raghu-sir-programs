@@ -12,6 +12,7 @@ public class Q6arithematic {
         System.out.println("subtraction "+(a-b));
         System.out.println("multiplication "+(a*b));
         System.out.println("division "+(a/b));
+        sc.close();
     }
     
 }

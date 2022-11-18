@@ -23,7 +23,7 @@ public class Q16day {
             case 7:System.out.println("saturday");
             break;
             default:System.out.println("Inviald day number");
-            
+            sc.close();
 
         }
     }

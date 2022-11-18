@@ -18,6 +18,7 @@ public class Q1percentage {
     System.out.println("10percentage "+percentage);
     System.out.println("12 percentage "+toper);
     System.out.println("Degree "+degree);
+    sc.close();
     
     }
 }

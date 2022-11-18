@@ -17,6 +17,7 @@ public class Q15bigthree {
             System.out.println("big b "+b);
             else 
              System.out.println("big "+c);
+             sc.close();
             
     }
     

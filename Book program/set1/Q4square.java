@@ -10,6 +10,7 @@ public class Q4square {
 
         System.out.println("Side "+side);
         System.out.println("perimeter: "+perimeter);
+        sc.close();
     }
 
     

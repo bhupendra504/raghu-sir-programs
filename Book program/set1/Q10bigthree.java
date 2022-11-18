@@ -16,6 +16,7 @@ public class Q10bigthree {
            System.out.println("biggest b"+b);
            else
            System.out.println("biggest c"+c);
+           sc.close();
     }
     
 }

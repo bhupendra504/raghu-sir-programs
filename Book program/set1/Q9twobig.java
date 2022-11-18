@@ -12,6 +12,7 @@ public class Q9twobig {
          System.out.println("big b "+a);
          else
           System.out.println("big b "+b);
+          sc.close();
     }
     
 }

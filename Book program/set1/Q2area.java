@@ -9,6 +9,7 @@ public class Q2area {
         double circumference=2*3.14*a;
         System.out.println("Radius "+radius);
         System.out.println("Circumference "+circumference);
+        sc.close();
     }
     
 }

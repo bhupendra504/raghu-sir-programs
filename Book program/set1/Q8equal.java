@@ -11,6 +11,7 @@ public class Q8equal {
           System.out.println("equal ");
           if(a!=b)
            System.out.println("not equal");
+           sc.close();
     }
     
 }
